@@ -1,17 +1,26 @@
-.navbar{
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     background-color: black;
     padding: 1em;
 }
-.list{
+
+.list {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-.item{
-    margin-right: 1em;
+.item {
+    margin-right: 40px;
 }
 
 .item a {
@@ -20,5 +29,10 @@
 }
 
 .item a:hover {
-    color: #ffbb33
+    color: #ffbb33;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
 }

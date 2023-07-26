@@ -7,7 +7,7 @@ function Navbar() {
         <nav className={styles.navbar}>
             <Container>
                 <Link to="/">
-                    <img src={logo} alt="Costs" />
+                    <img className={styles.img} src={logo} alt="Costs" />
                 </Link>
                 <ul className={styles.list}>
                     <li className={styles.item}>
@@ -20,10 +20,10 @@ function Navbar() {
                         <Link to="/company"> Empresas </Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/contact"> Contato </Link>
+                        <Link to="/newproject"> Novo Projeto </Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/newproject"> Novo Projeto </Link>
+                        <Link to="/contact"> Contato </Link>
                     </li>
                 </ul>
             </Container>
