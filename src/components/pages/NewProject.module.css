@@ -1,5 +1,13 @@
-.divs{
-    text-align: center;
-    margin-bottom:  1.5em;
-    color:rgb(0, 0, 0)
+
+.newProjectContainer{
+    max-width: fit-content;
+    margin: 5pc auto;
 }
+/* Seu arquivo CSS */
+
+.newProjectContainer h1 {
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    white-space: nowrap;
+  }
+  
