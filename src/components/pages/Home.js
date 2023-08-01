@@ -4,9 +4,9 @@ import LinkButton from '../layout/LinkButton'
 function Home() {
     return (
         <section className={styles.homeContainer}>
-            <h1>Bem-Vindo ao <span>Costs</span></h1>
-            <p>Comece a gerenciar seus projetos agora mesmo</p>
-            <LinkButton to="/newproject" text = "Criar Projeto" />
+            <p>Menu</p>
+            <LinkButton to="/newproject" text = "Nuevos Projetos" />
+            <LinkButton to="/vehicles" text = "Vehicles" />
             <img src={savings} alt="Costs"/>
         </section>
     )
